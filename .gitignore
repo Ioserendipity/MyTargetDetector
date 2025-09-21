@@ -1,0 +1,22 @@
+# Build files
+build/
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependency directories
+venv/
+__pycache__/
+
+# Datasets and large files
+data/
+assets/models/*
+!assets/models/yolov5n.onnx
